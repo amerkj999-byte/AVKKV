@@ -162,7 +162,7 @@ text
 
 ### Все узлы в слайсере (Cura)
 
-![Все узлы АВККВ в слайсере](cad/avkkv.png)
+![Все узлы АВККВ в слайсере](https://raw.githubusercontent.com/amerkj999-byte/AVKKV/main/cad/avkkv.png)
 
 *Справа налево: конфузор, инжектор, камера смешения, циклон, турбина, бункер, PEM*
 
@@ -208,17 +208,9 @@ text
 
 ## 📊 Графики
 
-### Суточный профиль воды
-
-![Суточный профиль воды](docs/convergence_water.png)
-
-### Энергобаланс
-
-![Энергобаланс АВККВ](docs/convergence_energy.png)
-
-### Источники воды
-
-![Источники воды](docs/convergence_source.png)
+![Суточный профиль воды](https://raw.githubusercontent.com/amerkj999-byte/AVKKV/main/docs/convergence_water.png)
+![Энергобаланс АВККВ](https://raw.githubusercontent.com/amerkj999-byte/AVKKV/main/docs/convergence_energy.png)
+![Источники воды](https://raw.githubusercontent.com/amerkj999-byte/AVKKV/main/docs/convergence_source.png)
 
 ## 🛠️ Как собрать
 
