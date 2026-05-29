@@ -84,9 +84,9 @@
 │   ├── avkkv_060_bunker.cpp        #   Бункер-рекуператор со змеевиком
 │   ├── avkkv_070_fuelcell.cpp      #   PEM топливный элемент (20 ячеек)
 │   ├── avkkv_000_common_parts.cpp  #   Унифицированные узлы
-│   ├── avkkv_solver.cpp            #   Физический солвер (24-часовая симуляция)
+│   ├── avkkv_solver.cpp            #   Физический солвер (24 ч)
 │   └── tube_generator.cpp          #   Генератор трубок (газ + вода)
-├── cad/                            # 3D-модели и чертежи
+├── cad/                            # STL-файлы и чертежи
 │   ├── 010_confusor.stl            #   Конфузор
 │   ├── 020_injector.stl            #   Инжектор
 │   ├── 030_mixer.stl               #   Камера смешения
@@ -94,14 +94,16 @@
 │   ├── 050_turbine.stl             #   Турбодетандер + компрессор
 │   ├── 060_bunker.stl              #   Бункер
 │   ├── 070_fuelcell.stl            #   PEM топливный элемент
-│   ├── assembly/                   #   Сборка КОМПАС-3D (.a3d)
+│   ├── tube_bunker_to_pem_gas.stl  #   Трубка газа
+│   ├── tube_pem_to_bunker_water.stl#   Трубка воды
 │   └── drawings/                   #   Чертежи ЕСКД (.cdw)
+├── assembly/                       # 3D-сборка
+│   └── AVKKV_sborka.a3d            #   КОМПАС-3D v16
 ├── docs/                           # Документация
 │   ├── AVKKV.md                    #   Таблицы материалов, допусков, техкарт
-│   ├── Convergence.png             #   График сходимости солвера
-│   └── README.md                   #   Этот файл
-└── LICENSE                         #   GNU GPL v3.0
-
+│   └── Convergence.png             #   График сходимости солвера
+├── LICENSE                         #   GNU GPL v3.0
+└── README.md                       #   Этот файл
 text
 
 ---
